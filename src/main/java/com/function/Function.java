@@ -18,9 +18,7 @@ public class Function {
     /**
      * This function listens at endpoint "/api/HttpExample". Two ways to invoke it using "curl" command in bash:
      * 1. curl -d "HTTP Body" {your host}/api/HttpExample
-     * 2. curl "{your host}/api/HttpExample?name=HTTP%20Query"123345667788
-     * dcnkjcnakSCNNAKSCNAC
-     * enfwlfnwlffenlfnlqwnfec 43flwlfns fa cq4jqlwf aw 3qonfqw o4whfalwfqo
+     * 2. curl "{your host}/api/HttpExample?name=HTTP%20Query"
      */
     @FunctionName("HttpExample")
     public HttpResponseMessage run(
